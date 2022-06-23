@@ -2,7 +2,9 @@
 <p href="#descricao" align="center">Spring Security</p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/python-%23007ACC.svg?&style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
+  
+ <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
 </div>
 
 [comment]: <> (<h4 align="center"> )
