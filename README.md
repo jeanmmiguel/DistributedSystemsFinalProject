@@ -47,3 +47,7 @@ Spring Security, Spring Boot e JWT
 
 Arquitetura do sistema e Interface    
 =====================
+
+![WhatsApp Image 2022-06-23 at 7 56 32 PM](https://user-images.githubusercontent.com/31520652/175568755-366deab3-cd05-4e8a-8709-3c112db366ea.jpeg)
+
+
