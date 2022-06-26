@@ -114,7 +114,8 @@ POST
 
 
 GET 
-    • Retorna todo o conteúdo disponível (public content) 
+
+     Retorna todo o conteúdo disponível (public content) 
 
     • URL : /api/test/all
 
