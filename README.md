@@ -65,14 +65,14 @@ POST
 
     • JSON BODY:
 
- { "username": "exemplo", 
-    
-    "email": "exemplo@SistemasDistribuidos.com.br",
-    
-    "password": "12345678",
-    
-    "role": ["mod", "user"] }
-
+```json
+ { 
+    "username": "exemplo",  
+    "email": "exemplo@SistemasDistribuidos.com.br",   
+    "password": "12345678", 
+    "role": ["mod", "user"]
+ }
+```
 
     • Autenticar login e iniciar sessao de um conta 
 	
@@ -80,10 +80,13 @@ POST
 	
     • JSON BODY:
 
-{ "username": "exemplo",
-   
-   "password": "12345678"}
 
+```json
+{  
+   "username": "exemplo", 
+   "password": "12345678"
+}
+```
     • Finalizar a sessão (limpar os cookies)
 
     • URL: /api/auth/signout
