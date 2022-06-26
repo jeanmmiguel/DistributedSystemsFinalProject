@@ -55,4 +55,71 @@ Arquitetura do sistema e Interface
 
 
 
+Funcionamento das Rotas do Sistema   
+=====================
+POST
+
+    • Criar uma nova conta no banco de dados
+
+    • URL: /api/auth/signup
+
+    • JSON BODY:
+
+{
+    "username": "exemplo",
+    "email": "exemplo@SistemasDistribuidos.com.br",
+    "password": "12345678",
+    "role": ["mod", "user"]
+}
+
+
+    • Autenticar login e iniciar sessao de um conta 
+	
+    • URL: /api/auth/signin
+	
+    • JSON BODY:
+
+{
+    "username": "exemplo",
+    "password": "12345678"
+}
+
+    • Finalizar a sessão (limpar os cookies)
+
+    • URL: /api/auth/signout
+
+    • JSON BODY: ~não tem body
+
+
+
+
+
+
+
+
+GET 
+    • Retorna todo o conteúdo disponível (public content) 
+
+    • URL : /api/test/all
+
+    • Acessar conteúdo do usuário (User) (Autenticação Necessária)
+
+    • URL : /api/test/user
+
+    • Conteúdo disponível para o Moderador (Autenticação Necessária)
+
+    • URL : /api/test/mod
+
+    • Conteúdo disponível para o Admin (Autenticação Necessária)
+
+    • URL : /api/test/admin
+
+
+
+
+
+
+
+
+
 
