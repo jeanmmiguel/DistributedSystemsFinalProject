@@ -65,15 +65,13 @@ POST
 
     • JSON BODY:
 
- {
-    "username": "exemplo", 
+ { "username": "exemplo", 
     
     "email": "exemplo@SistemasDistribuidos.com.br",
     
     "password": "12345678",
     
-    "role": ["mod", "user"]
- }
+    "role": ["mod", "user"] }
 
 
     • Autenticar login e iniciar sessao de um conta 
@@ -82,11 +80,9 @@ POST
 	
     • JSON BODY:
 
-{
-    "username": "exemplo",
+{ "username": "exemplo",
    
-   "password": "12345678"
-}
+   "password": "12345678"}
 
     • Finalizar a sessão (limpar os cookies)
 
