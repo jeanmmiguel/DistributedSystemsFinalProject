@@ -7,8 +7,6 @@
 - Professor: Dr. Rodrigo Campiolo
 
 
-<p href="#descricao" align="center">Spring Security</p>
-
 <div align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
   
