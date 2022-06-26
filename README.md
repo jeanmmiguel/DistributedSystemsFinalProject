@@ -48,7 +48,13 @@ O objetivo desse algoritmo é demonstrar a implementação do Spring Security co
 Descrição das tecnologias utilizadas na implementação
 ====================
 
-Spring Security, Spring Boot e JWT 
+Spring Security, Spring Boot ,JWT , H2 Database
+- H2 - Banco de dados em memória que permite todas as operações do CRUD, permitindo assim que possamos testar nossa aplicação mesmo sem um banco de dados já definido.
+- Spring Security - É uma biblioteca que fornece proteção, mas também autenticação, autorização e armazenamento de senhas. Sendo que, para autenticação, ele trabalha com vários protocolos. Para armazenar senhas em um banco de dados, ele tem opção de vários encoders
+- Spring Boot - É um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele traz mais agilidade para o processo de desenvolvimento, uma vez que devs conseguem reduzir o tempo gasto com as configurações iniciais, tais como : Gerenciamento de dependências,configurações de bibliotecas, entre outros.
+- JWT - JWT (JSON Web Token) é um método RCT 7519 padrão da indústria para realizar autenticação entre duas partes por meio de um token assinado que autentica uma requisição web. Esse token é um código em Base64 que armazena objetos JSON com os dados que permitem a autenticação da requisição.
+
+
 
 
 
