@@ -132,8 +132,17 @@ GET
 
 
 
+Dependências
+=====================
+- maven
+- java 11
 
 
+Executando a aplicação
+=====================
+
+Na raiz do projeto execute o seguinte comando:
+- mvn spring-boot:run
 
 
 
