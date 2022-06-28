@@ -28,7 +28,8 @@ Spring Security
    * [Descrição das tecnologias utilizadas na implementação](#executando-o-projeto)
    * [Arquitetura do sistema e Interface](#bibliotecas-utilizadas)
    * [Exemplos de Uso](#exemplos-de-uso)
-  
+   * [Dependências](#dependências)
+   * [Executando a aplicação](#executar-aplicacao)  
 <!--te-->
 
 Introdução
