@@ -37,9 +37,9 @@ Neste projeto será implementado um sistema de validação de usuário e
 senha, ao ser autenticado (login e senha informado corretamente) o sistema irá retornar as informações do perfil resultante.
 
 Dentro do sistema existe 3 funções distintas:
-- Usuário (Hipoteticamente teria poucas permissões)
-- Moderador (Permissões: Read, Update)
-- Admin (Permissões: Read, Update, Delete)
+- Usuário (Hipoteticamente teria poucas permissões, como por exemplo: Read)
+- Moderador (Hipoteticamente teria mais permissões que o usuário, como por exemplo: Read, Update)
+- Admin (Hipoteticamente teria todas as permissões, como por exemplo, Read, Update, Delete)
 
 O objetivo desse algoritmo é demonstrar a implementação do Spring Security com o JSON Web Token.
 
